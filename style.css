@@ -127,3 +127,13 @@ body{
 .boxEnding a:hover{
     color: rgba(243, 240, 240, 0.623);
 }
+@media only screen and (max-width: 615px){
+    .loginBox{
+        background-color: #9eadb4 ;
+        height: 100%;
+        width: 100%;
+        min-width:200px;
+        min-height: 200px;
+        /* padding: 0; */
+    }
+}

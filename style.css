@@ -1,0 +1,129 @@
+@font-face {
+    font-family: MainFont ;
+    src: url(assets/fonts/Poppins-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: MainFont;
+}
+body{
+    height: 100vh;
+    background-color: #e6f7ff ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginBox{
+    background-color: #376c80d3 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    border-radius: 10px;
+    min-height: 300px;
+    min-width: 500px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, .3);
+}
+.loginBox .formLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.loginBox .formLogo img{
+    height: 100px;
+    /* margin-bottom: 10px; */
+}
+.loginBox .formLogo h2{
+    color: #f5f5f5;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.loginBox .formInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.loginBox .formInputs .loginInput{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+
+}
+.loginBox .formInputs .loginInput:last-child{
+    position: relative;
+}
+.loginBox .formInputs .loginInput input{
+    border: none;
+    border-bottom: 2px solid white ;
+    background: none;
+    padding-bottom: 10px;
+    width: 270px;
+    outline: none;
+    color: white;
+    font-size: 17px;
+}
+.loginBox .formInputs .loginInput input::placeholder{
+    color: white;
+}
+.loginBox .formInputs .loginInput i{
+    margin-top: 7px;
+    color: white;
+}
+#show{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.loginCheckBoxes{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+.loginCheckBoxes .leftSide{
+    display: flex;
+    gap: 5px;
+    color: white;
+}
+.loginCheckBoxes .rightSide a{
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+.loginCheckBoxes .rightSide:hover a{
+    color: rgba(243, 240, 240, 0.623);
+}
+.loginButton button{
+    width: 300px;
+    height: 40px;
+    border: 2px solid white;
+    color: #376c80d3 ;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+}
+.loginButton button:hover{
+    color: white;
+    background: none;
+}
+.boxEnding{
+    display: flex;
+    gap: 10px;
+}
+.boxEnding{
+    color: white;
+}
+.boxEnding a{
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+.boxEnding a:hover{
+    color: rgba(243, 240, 240, 0.623);
+}
